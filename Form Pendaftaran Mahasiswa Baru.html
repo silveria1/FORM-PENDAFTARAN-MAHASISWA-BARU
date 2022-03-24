@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tugas Membuat Form dengan Table</title>
+</head>
+<body>
+	<h1 align="center">Form Pendaftaran Mahasiswa Baru</h1>
+	
+	<table border='0' width='100%' cellpadding='4'>
+	    <tr>
+	    	<td colspan="8" bgcolor=lightblue><b>Data Diri</b></td>
+	    </tr>
+
+		 <tr>
+	    	<td colspan="2"><b>Nama Lengkap :</b><br>
+	    		<input type="text" name="Nama Lengkap" placeholder="Masukkan Nama Lengkap">
+	    	</td>
+
+	    	<td><b>Nomor Identitas (NIK) :</b><br>
+	    		<input type="text" name="Nomor Identitas (NIK)" placeholder="Masukkan Nomor NIK">
+	    	</td>
+	    </tr>
+	    <tr>
+	    	<td ><b>Tempat Lahir :</b><br>
+	    		<input type="text" name="Tempat Lahir" placeholder="Masukkan Tempat Lahir">
+	    	</td>
+
+	    	<td><b>Tanggal Lahir :</b><br>
+	    		<input type="date" name="Tanggal Lahir">
+	    	</td>
+
+	    	 <td><b>Jenis Kelamin</b><br>
+	    	  	<select name="Jenis Kelamin">
+	    	  		<option value="Pilih">Pilih</option>
+				    <option value="Pria">Pria</option>
+				    <option value="Wanita">Wanita</option>
+			    </select>
+			</td>
+
+	    </tr>
+	    <tr>
+	    	<td ><b>Kewarganegaraan :</b><br>
+	    		<select name="Kewarganegaraan">
+	    			<option value="Pilih">Pilih</option>
+				    <option value="WNA">Warga Negara Indonesia</option>
+				    <option value="WNI">Warga Negara Asing</option>
+			    </select>
+			</td>
+
+			 <td><b>Agama :</b><br>
+				 <select name="agama">
+				 	<option value="Pilih">Pilih</option>
+				    <option value="islam">Islam</option>
+                    <option value="islam">Khatolik</option>
+				    <option value="kristen">Protestan</option>
+				    <option value="hindu">Hindu</option>
+				    <option value="budha">Budha</option>
+				  </select>
+			</td>
+
+			<td><b>Nama Ibu Kandung :</b><br>
+				<input type="text" name="Nama Ibu Kandung" placeholder="Masukkan Nama Ibu Kandung">
+			</td>
+
+
+		 </tr>
+		 <tr>
+	    	<td ><b>Email :</b><br>
+	    		<input type="text" name="Email" placeholder="Masukkan Masukkan Email"></td>
+	    	<td><b>No Telp :</b><br>
+	    		<input type="text" name="No Telp" placeholder="Masukkan No Telp"></td>
+	    </tr>
+
+	     <tr>
+	    	<td colspan="8" bgcolor=lightblue><b>Data Alamat Asal</b></td>
+	    </tr>
+
+
+	    <tr>
+	    	<td colspan="2"><b>Alamat :</b><br>
+	    		<textarea name="Alamat" placeholder="Masukkan Alamat"></textarea>
+	    	</td>
+
+	    	<td><b>Kode Pos :</b><br>
+	    		<input type="text" name="Kode Pos" placeholder="Kode Pos">
+	    	</td>
+	    </tr>
+
+
+	    <tr>
+	    	<td><b>Provinsi :</b><br>
+		    	<select name="provinsi">
+                    <option value="Nangroe Aceh Darussalam">Nangroe Aceh Darussalam</option>
+					<option value="Sumatera Barat">Sumatera Barat</option>
+					<option value="Sumatera Selatan">Sumatera Selatan</option>
+					<option value="Sumatera Utara">Sumatera Utara</option
+					<option value="Bali">Bali</option>
+                    <option value="Kalimantan Barat">Kalimantan Barat</option>
+					<option value="Kalimantan Selatan">Kalimantan Selatan</option>
+					<option value="Banten">Banten</option>
+					<option value="Bengkulu">Bengkulu</option>
+					<option value="Gorontalo">Gorontalo</option>>
+					<option value="Jambi">Jambi</option>
+					<option value="Jawa Barat">Jawa Barat</option>
+					<option value="Jawa Tengah">Jawa Tengah</option>
+					<option value="Jawa Timur">Jawa Timur</option>
+					<option value="Kepulauan Riau">Kepulauan Riau</option>
+					<option value="Lampung">Lampung</option>
+					<option value="Riau">Riau</option>
+                    <option value="Sulawesi Utara">Sulawesi Utara</option>
+					<option value="Sulawesi Barat">Sulawesi Barat</option>
+					<option value="Sulawesi Selatan">Sulawesi Selatan</option>
+					<option value="Sulawesi Tengah">Sulawesi Tengah</option>
+					<option value="Sulawesi Tenggara">Sulawesi Tenggara</option>>
+					<option value="Yogyakarta">Yogyakarta</option>	<option value="Maluku">Maluku</option>
+					<option value="Maluku Utara">Maluku Utara</option>
+					<option value="Nusa Tenggara Barat">Nusa Tenggara Barat</option>
+					<option value="Nusa Tenggara Timur">Nusa Tenggara Timur</option>
+					<option value="Papua">Papua</option>
+				 </select>
+				</td>
+
+	    	<td><b>Kabupaten :</b><br>
+		    	<select name="Kabupaten">
+					<option value="Pilih">Pilih Kabupaten</option>
+					<option value="Samosir">Samosir</option>
+					<option value="Nias">Nias</option>
+					<option value="Deli serdang">Deli serdang</option>
+				 </select>
+			</td>
+
+			<td><b>Kecamatan :</b><br>
+		    	<select name="Kecamatan">
+					<option value="Pilih">Pilih Kecamatan</option>
+					<option value="Onanrunggu">Onanrunggu</option>
+					<option value="Suka maksmur">Suka makmur</option>
+					<option value="Medan deli">Medan deli</option>
+				 </select>
+			</td>
+	    </tr>
+
+
+	    <tr>
+	    	<td colspan="8" bgcolor=lightblue><b>Data Pendidikan</b></td>
+	    </tr>
+
+
+	    <tr>
+	    	<td><b>Pendidikan Terakhir :</b><br>
+		    	<select name="Pendidikan Terakhir">
+					<option value="pilih">Pilih</option>
+					<option value="SMA">SMA-IPA</option>
+					<option value="SMA">SMA-IPS</option>
+					<option value="SMK">SMK</option>
+				 </select>
+			</td>
+
+			<td><b>Nama Sekolah :</b><br>
+	    		<input type="text" name="Nama Sekolah" placeholder="Masukkan Nama Sekolah">
+	    	</td>
+
+	    	<td><b>Rata-Rata Nilai Rapor Kelas 12 :</b><br>
+	    		<input type="text" name="Rata-Rata Nilai Rapor Kelas 12" placeholder="Masukkan Rata-Rata">
+	    	</td>
+	    </tr>
+
+	     <tr>
+	    	<td colspan="8" bgcolor=lightblue><b>Pilihan Program Studi</b></td>
+	    </tr>
+
+	     <tr>
+	    	<td><b>Pilih Program Studi 1 :</b><br>
+		    	<select name="Program Studi 1">
+					<option value="pilih">Pilih Program Studi 1</option>
+					<option value="Teknik Informatika">D-3 Teknik Informatika</option>
+					<option value="Sistem Informasi">D-3 Sistem Informasi</option>
+					<option value="Manajemen">D-3 Manajemen</option>
+				 </select>
+			</td>
+
+            <td><b>Pilih Program Studi 1 :</b><br>
+		    	<select name="Program Studi 1">
+					<option value="pilih">Pilih Program Studi 2</option>
+					<option value="Teknik Informatika">D-3 Teknik Informatika</option>
+					<option value="Sistem Informasi">D-3 Sistem Informasi</option>
+					<option value="Manajemen">D-3 Manajemen</option>
+				 </select>
+			</td>
+
+			
+		</tr>
+
+		<tr>
+			<td><button style="background-color: lightblue;">Daftar</button>
+			<input type="reset" value="Reset"></td>
+		</tr>
+
+	</table>
+</body>
+</html>
